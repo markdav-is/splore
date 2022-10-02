@@ -1,7 +1,6 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28621.142
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oqtane.Server", "..\oqtane.framework\Oqtane.Server\Oqtane.Server.csproj", "{3AB6FCC9-EFEB-4C0E-A2CF-8103914C5196}"
 EndProject
@@ -12,6 +11,18 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkDav.Splore.Shared", "Shared\MarkDav.Splore.Shared.csproj", "{18D73F73-D7BE-4388-85BA-FBD9AC96FCA2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkDav.Splore.Package", "Package\MarkDav.Splore.Package.csproj", "{C5CE512D-CBB7-4545-AF0F-9B6591A0C3A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkDav.SploreTheme.Client", "..\MarkDav.SploreTheme\Client\MarkDav.SploreTheme.Client.csproj", "{F879F81F-9652-45EE-89FB-6FF874FF3D84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkDav.SploreTheme.Package", "..\MarkDav.SploreTheme\Package\MarkDav.SploreTheme.Package.csproj", "{55CDDFC8-930A-4A41-9F87-2BD116BEC917}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oqtane", "Oqtane", "{98C6040C-6857-43FB-9A8F-F0AFFCFA299C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Theme", "Theme", "{957C5A06-CA25-4901-A2F0-97BE47AFB961}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oqtane.Shared", "..\oqtane.framework\Oqtane.Shared\Oqtane.Shared.csproj", "{B2D1CD57-F52D-4787-A3BC-29176CE71E4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oqtane.Client", "..\oqtane.framework\Oqtane.Client\Oqtane.Client.csproj", "{96B11676-60AC-4E31-B72C-09AF590DD6A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +50,32 @@ Global
 		{C5CE512D-CBB7-4545-AF0F-9B6591A0C3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5CE512D-CBB7-4545-AF0F-9B6591A0C3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5CE512D-CBB7-4545-AF0F-9B6591A0C3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F879F81F-9652-45EE-89FB-6FF874FF3D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F879F81F-9652-45EE-89FB-6FF874FF3D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F879F81F-9652-45EE-89FB-6FF874FF3D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F879F81F-9652-45EE-89FB-6FF874FF3D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CDDFC8-930A-4A41-9F87-2BD116BEC917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CDDFC8-930A-4A41-9F87-2BD116BEC917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CDDFC8-930A-4A41-9F87-2BD116BEC917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CDDFC8-930A-4A41-9F87-2BD116BEC917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D1CD57-F52D-4787-A3BC-29176CE71E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D1CD57-F52D-4787-A3BC-29176CE71E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D1CD57-F52D-4787-A3BC-29176CE71E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D1CD57-F52D-4787-A3BC-29176CE71E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B11676-60AC-4E31-B72C-09AF590DD6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B11676-60AC-4E31-B72C-09AF590DD6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B11676-60AC-4E31-B72C-09AF590DD6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B11676-60AC-4E31-B72C-09AF590DD6A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AB6FCC9-EFEB-4C0E-A2CF-8103914C5196} = {98C6040C-6857-43FB-9A8F-F0AFFCFA299C}
+		{F879F81F-9652-45EE-89FB-6FF874FF3D84} = {957C5A06-CA25-4901-A2F0-97BE47AFB961}
+		{55CDDFC8-930A-4A41-9F87-2BD116BEC917} = {957C5A06-CA25-4901-A2F0-97BE47AFB961}
+		{B2D1CD57-F52D-4787-A3BC-29176CE71E4D} = {98C6040C-6857-43FB-9A8F-F0AFFCFA299C}
+		{96B11676-60AC-4E31-B72C-09AF590DD6A2} = {98C6040C-6857-43FB-9A8F-F0AFFCFA299C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D016F15-46FE-4726-8DFD-2E4FD4DC7668}
