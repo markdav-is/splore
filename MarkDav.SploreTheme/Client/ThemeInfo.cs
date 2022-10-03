@@ -7,7 +7,7 @@ namespace MarkDav.SploreTheme
     {
         public Theme Theme => new Theme
         {
-            Name = "SploreTheme",
+            Name = "Splore Theme",
             Version = "1.0.0",
             PackageName = "MarkDav.SploreTheme"
         };
